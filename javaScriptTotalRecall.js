@@ -603,6 +603,7 @@ const user = {
 // console.log(user.purchased);
 
 // B. Update the user
+
 // Our user has changed his or her email address. 
 // Without changing the original userobject, update the emailvalue to a new email address.
 // Our user has had a birthday! 
@@ -618,6 +619,7 @@ user.age++;
 // console.log(user);
 
 // C. Adding keys and values
+
 // You have decided to add your user's location to the data that you 
 // want to collect.
 // Without changing the original userobject, 
@@ -627,6 +629,7 @@ user.location = 'Columbus';
 // console.log(user);
 
 // D. Shopaholic!
+//
 // Our user has purchased an item! They have purchased some "carbohydrates". Using .push(), add the string "carbohydrates" to the purchasedarray.
 // -- when i want to refer to the purchased array in user, i type user.purchased
 // console.log(user.purchased);
@@ -649,6 +652,7 @@ user.purchased.push("new thing", "another new thing", "more things");
 
 
 // E. Object-within-object
+
 // Remember that you can add an object to an existing object in the same way that you can add any new property/value pair.
 // If we want to give our user a friendwith a nameand age, we could write:
 // user.friend = {
@@ -681,8 +685,11 @@ user.friend.purchased.push("The One Ring", "A latte");
 // Console.log just "A latte" from the friend's purchasedarray.
 // console.log(user.friend.purchased[1]);
 console.log(user)
+
+
 // F. Loops
-// Write a for loop that iterates over the User's purchasedarray 
+
+// Write a for loop that iterates over the User's purchased array 
 // (NOT the friend's purchased array), and prints each element to the console.
 let arrLength = user.purchased.length;
 for (i=0; i<arrLength; i++) {
@@ -695,7 +702,10 @@ arrLength = user.friend.purchased.length;
 for (i=0; i<arrLength; i++) {
     console.log(user.friend.purchased[i]);
 }
+
+
 // G. Functions can operate on objects
+
 // Write a single function update User that takes no parameters. 
 // When the function is run, it should:
 // it should increment the user's age by 1

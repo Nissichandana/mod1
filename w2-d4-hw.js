@@ -1,3 +1,20 @@
+
+
+// Challenge: While Loops - Fundamentals
+let count = 2;
+
+while (count < 8) {
+    count = count + 2;
+}
+console.log(count);
+// ADD CODE HERE
+
+
+// Uncomment these to check your work!
+// console.log(count); 
+//================================
+//Challenge: fizzbuzz
+
 const fb = [];
 // // ADD CODE HERE
 for(let i=1; i <=16; i++)
@@ -11,7 +28,7 @@ for(let i=1; i <=16; i++)
   fb.push(i);
 }
 
-console.log(fb)
+// console.log(fb)
 
 // /==========================================
 // Challenge: Control Flow - if statements
@@ -41,3 +58,8 @@ addThis++;
 }
 
 console.log(sum);
+
+
+
+
+
